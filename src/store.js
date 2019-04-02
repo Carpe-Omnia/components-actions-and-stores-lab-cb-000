@@ -1,10 +1,10 @@
 import { renderApp } from './index.js'
 
-<<<<<<< HEAD
+
  const createStore = (reducer) => {
-=======
+
 export const createStore = (reducer) => {
->>>>>>> ef6efd94b7e7ec4d2619440398b2e93ba8d85fc7
+
     let state;
     let listeners = [];
     const getState = () => state;
@@ -25,7 +25,6 @@ export const createStore = (reducer) => {
         subscribe: subscribe
     };
 }
-<<<<<<< HEAD
+
 export default createStore ;
-=======
->>>>>>> ef6efd94b7e7ec4d2619440398b2e93ba8d85fc7
+
